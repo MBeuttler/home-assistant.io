@@ -54,6 +54,9 @@ host:
 
 It is recommended to create a dedicated user for Home Assistant and only allow access to "Smart Home".
 
+You also have to setup the user and password access to the FRITZ!Box user interface. 
+Go to '*System > Fritz!Box Users > Login to the Home Network*' and set '*Registration in the Home Network*' to '*Every FRITZ!Box user logs in with his own user name and own password*'.
+
 <p class='note warning'>
 If this component throws an error when starting home-assistant you should check if all actors are plugged in and connected to the FritzBox. Inactive actors that are not deleted from FritzBox configuration might lead to errors.
 </p>
